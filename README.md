@@ -2,6 +2,12 @@
 
 Public Codex skill for turning Notion pages, Notion-exported Markdown, or Markdown drafts into polished Xiaohongshu/XHS multi-image card posts.
 
+## Demo Preview
+
+![Notion to Xiaohongshu image card demo](assets/demo/notion-to-xhs-demo.svg)
+
+The preview combines six sample cards generated from the renderer, showing cover, text, list, quote, and code layouts across several visual styles.
+
 ## What It Helps With
 
 - Convert long-form Notion or Markdown content into `1080x1440` logical cards exported as `2160x2880` PNG files.
@@ -56,7 +62,3 @@ Optional customization:
 THEME=blue AUTHOR_NAME="Your Name" COVER_MAIN="Main Title" COVER_SUB="Subtitle" node src/render.mjs
 PLAYWRIGHT_CHROMIUM_EXECUTABLE="/path/to/chrome" node src/render.mjs
 ```
-
-## Public Safety Notes
-
-This repository should not include private Notion exports, rendered personal drafts, local runtime paths, credentials, or personal author defaults. Keep local preferences in a git-ignored `agents.md` or another private configuration file.
