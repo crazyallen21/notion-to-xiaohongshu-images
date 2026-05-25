@@ -1,0 +1,4 @@
+interface:
+  display_name: "Notion to Xiaohongshu Images"
+  short_description: "Route Notion docs into XHS image posts"
+  default_prompt: "Use $notion-to-xhs-images to convert this Notion document into polished Xiaohongshu image cards, routing long articles into linked posts or compacting shorter articles into one post."
